@@ -41,15 +41,17 @@ section{
 
 }
 .dream-area{
-    background-image: url(images/dream-bg.png);
+    background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
 .single-experience{
     box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 80%;
 }
 .experience-web{
-    background-image: url(images/exp-bg.png);
+    background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -61,8 +63,7 @@ section{
 }
 #trainee_web{
     border-left: 7px solid;
-    border-image: linear-gradient(180deg,blue,
-    cyan);
+    border-image: linear-gradient(180deg,blue,cyan);
     border-image-slice: 1;
 }
 footer{
